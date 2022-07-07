@@ -16,7 +16,7 @@ Make sure you have `npm` available (usually from your distribution package).
 These commands check out the source and build it into the `dist/` directory:
 
 ```
-git clone https://github.com/cockpit-project/cockpit-machines
+git clone --recurse-submodules https://github.com/cockpit-project/cockpit-machines
 cd cockpit-machines
 make
 ```
